@@ -1,0 +1,15 @@
+<!-- Footer -->
+<hr>
+<footer>
+   <center>
+	<div id="footer">
+	
+   &copy; Copyright 2015 by The Board of Trustees at the <a href="http://illinois.edu">University of Illinois at Urbana-Champaign</a>.	<br>
+	
+		If you have questions about this page, please contact the <a href="mailto:ayers1@illinois.edu">webmaster</a>. Links to external sites are provided as a convenience to our users. The Department of Physics does not control or endorse the content of external sites.
+		<a href="{{ site.baseurl }}/changelog"><button type="button" class="btn btn-xs btn-info" href="{{ site.baseurl }}/changelog">Change Log</button></a>
+    
+	</div>
+</center>
+   
+</footer>

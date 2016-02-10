@@ -1,0 +1,64 @@
+/*background*/
+.page-header {
+  padding-bottom:10px;
+  text-align:center;
+  border-bottom: none;
+}
+
+.category-title {
+  padding-bottom:20px;
+  text-align: center;
+}
+
+.thumbnail {
+  position:relative;
+	padding:0;
+	border:0;
+  border:none;
+  margin-bottom:0;
+  background:none;
+  min-width: 250px; /* Makes thumbnails with captions (names) of different lengths stack properly on different screen sizes */
+}
+
+.thumbnail2 {
+  position:relative;
+	padding:0;
+	border:0;
+  border:none;
+  margin-bottom:0;
+  background:none;
+  min-width: 300px; /* Makes thumbnails with captions (names) of different lengths stack properly on different screen sizes */
+}
+
+.caption {
+  text-align:center;
+}
+
+a:hover .img-circle {
+  opacity:.6;
+}
+
+.img-circle {
+  padding-bottom:0;
+  margin-bottom:0;
+  width:150px;
+  height:150px;
+}
+
+.img-small-circle {
+   float: left;
+  padding-bottom:0;
+  margin-bottom:0;
+  width:80px;
+  height:80px;
+}
+
+/* This helps the automatically generated rows of pictures on about.html stack properly when the screen size is smaller than the row width */
+@media (max-width: 1000px) {
+  .row-centered {
+    padding-top:0px;
+	padding-bottom:0px;
+  }
+}
+
+

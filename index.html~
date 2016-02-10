@@ -1,0 +1,85 @@
+---
+layout: home
+title: Home
+---
+
+<div id="announcements">
+   <div class="wrapper">
+      <h2><center><div style="color:#000033; font-weight:bold">About Us</div></center></h2>
+      <center><img src="img/paragraph-separator-2.gif" width=25%></center>
+      We are a high energy physics research group in the <a href="http://physics.illinois.edu"> physics department</a> at the <a href="http://illinois.edu">University of Illinois, Urbana-Champaign</a>. Our research interests include:<br>
+      - The New Small Wheel upgrade of the ATLAS Detector<br>
+      - Physics analysis of Higgs Boson decaying to multiple b-quarks and muons<br>
+      - R & D for muon readout board for muon drift tube chambers (MDTs)
+      
+      <br><br>
+      <center>
+       <!-- Start cssSlider.com -->
+	<div class='csslider1 autoplay '>
+		<input name="cs_anchor1" id='cs_slide1_0' type="radio" class='cs_anchor slide' >
+		<input name="cs_anchor1" id='cs_slide1_1' type="radio" class='cs_anchor slide' >
+		<input name="cs_anchor1" id='cs_slide1_2' type="radio" class='cs_anchor slide' >
+		<input name="cs_anchor1" id='cs_play1' type="radio" class='cs_anchor' checked>
+		<input name="cs_anchor1" id='cs_pause1' type="radio" class='cs_anchor' >
+		<ul>
+			<div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
+				<img src="http://cssslider.com/sliders/pen/images/buns.jpg" style="width: 100%;">
+			</div>
+			<li class='num0 img'>
+				<img src='img/researchBackground.jpg'  />
+			</li>
+			<li class='num1 img'>
+            <img src='img/verena_talking.jpg' /> 
+			</li>
+			<li class='num2 img'>
+	         <img src='img/cern1.jpg'/>
+			</li>
+		
+		</ul>
+		
+		
+		<div class='cs_arrowprev'>
+			<label class='num0' for='cs_slide1_0'></label>
+			<label class='num1' for='cs_slide1_1'></label>
+			<label class='num2' for='cs_slide1_2'></label>
+		</div>
+		<div class='cs_arrownext'>
+			<label class='num0' for='cs_slide1_0'></label>
+			<label class='num1' for='cs_slide1_1'></label>
+			<label class='num2' for='cs_slide1_2'></label>
+		</div>
+		
+		<div class='cs_bullets'>
+			<label class='num0' for='cs_slide1_0'>
+				<span class='cs_point'></span>
+			</label>
+			<label class='num1' for='cs_slide1_1'>
+				<span class='cs_point'></span>
+			</label>
+			<label class='num2' for='cs_slide1_2'>
+				<span class='cs_point'></span>
+			</label>
+		</div>
+		</div>
+<!-- End cssSlider.com -->
+  
+  <br /><br />
+      </center>
+  </div>
+</div>
+
+<div id="aboutus">
+   <div class="wrapper">
+      <h2><center><div style="color:#000033; font-weight:bold">Announcements</div></center></h2>
+      <center><img src="img/paragraph-separator-2.gif" width=25%></center>
+      {% for announcement in site.data.announcements limit:5 %}
+         <b>{{ announcement.title }}</b> | {{ announcement.date}}<br>
+         {{ announcement.details }}<br><br>
+         {% if announcement.picture != "none" %}
+            <center><img src="{{ announcement.picture }}" width=75%></center><br>
+         {% endif %}
+         <center><img src="img/paragraph-separator-2.gif" width=25%></center>
+      {% endfor %}
+   </div>
+</div>
+

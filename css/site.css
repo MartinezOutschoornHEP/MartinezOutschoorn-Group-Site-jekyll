@@ -1,0 +1,306 @@
+/* Basic site-wide CSS */
+body  {
+  font-family: 'News Cycle', sans-serif;
+  font-size:15px;
+  color:#000000;
+  padding-top: 50px; /* Proper positioning of content below fixed navbar */
+  padding-bottom: 20px; 
+  background-image: url("../img/blu_stripes.png");
+
+  
+}
+
+.icon {
+   padding-top: 10px;
+   height: 40px;
+}
+/* Styles for links */
+a {
+  color:#0066cc;
+}
+
+a:hover {
+  color:#0066cc;
+}
+
+a:visited {
+  color:#0066cc;
+}
+
+/* Styles for all fonts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: lighter;
+}
+
+.wrapper {
+   margin: 20px;
+   padding: 10px;
+   background-color: white;
+   border: 3px solid #ffb380;
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+
+}
+/* CSS for special font sizes */
+#footer {
+   padding: 5px;
+   font-size:10px;
+   float: center;
+   background-color: white;
+   display: inline-block;
+}
+
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+}
+
+.col-centered {
+  display:inline-block;
+  float:none;
+  text-align:left; /* reset the text-align */
+  margin-right:-4px; /* inline-block space fix */
+}
+
+/* For proper linking to locations on page with 50 px fixed navbar. Used where "section" is not appropriate. */
+.anchor {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+/* CSS for the navbar and dropdown menus */
+
+.navbar .nav {
+  float:right;
+  font-size:15px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+li .highlight {
+  background-color:#5dbe3f;
+}
+
+li .highlight > a {
+  font-size:16px;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block; /* Makes dropdown items display on hover */
+}
+
+/* navbar background and border colors */
+.navbar-default {
+  background-color: #ff6600;
+  border-bottom-color: #000033;
+  border-bottom-width: 3px;
+  box-shadow:         -0px 0px 25px 0px rgba(0, 0, 0, 0.49);
+}
+
+/* navbar text color*/
+.navbar-default .navbar-brand {
+  color: #000033;
+  font-weight:bold;
+}
+
+/* navbar text hover color*/
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+  font-weight:bold;
+}
+.navbar-default .navbar-text {
+  color: #000033;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000033;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #000033;
+  font-weight:normal;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #3c292c;
+}
+.navbar-default .navbar-toggle {
+  border-color: #3c292c;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #FFFFFF;
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000033;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #000033;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ef9fae;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #3c292c;
+  }
+}
+
+/*CSS style for the newsbox*/
+.newsbox {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*CSS style for the research*/
+.research .research_intro .panel-heading a{
+  color: #3c763d;
+}
+
+.research .research_intro .panel-heading a:hover {
+  color: #3c763d;
+}
+
+.research .research_intro .panel-heading a:visited {
+  color: #3c763d;
+}
+
+.research .interested .panel-heading a{
+  color: #FFFFFF;
+}
+
+.research .interested .panel-heading a:hover {
+  color: #FFFFFF;
+}
+
+.research .interested .panel-heading a:visited {
+  color: #FFFFFF;
+}
+
+
+
+
+/*CSS style for the publication*/
+.publication a{
+  color:#000000;
+}
+
+.publication a:hover {
+  color:#000000;
+}
+
+.publication a:visited {
+  color:#000000;
+}
+
+/* CSS for posters beside one on home page */
+.posterOther {
+ // background-image:url('img/groupLong.jpg');
+  background-size: 100%;
+  height:200px;
+  background-attachment: fixed;
+}
+
+.posterOther .container {
+  max-width:100%;
+}
+
+.posterOther .container .left {
+  margin-top:50px;
+}
+
+.posterOther .container .ui_icon {
+  float:left;
+  margin-left:10%;
+  clear:both;
+}
+
+.posterOther .container .right{
+  float: right;
+}
+
+.posterOther a {
+  color:#000033;
+  font-weight:bold;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.8);
+}
+
+.posterOther a:hover {
+  color:#ff6600;
+  text-decoration: underline;
+}
+
+.posterOther h1 {
+  color:#ff6600;
+  font-weight:bold;
+  font-size:60px;
+  margin-top:0px;
+  margin-bottom:15px;
+   text-shadow:
+       1px 1px 0 #FFF,
+     -1px -1px 0 #FFF,  
+      1px -1px 0 #FFF,
+      -1px 1px 0 #FFF,
+       1px 1px 0 #FFF;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.8);
+
+}
+
+.posterOther p {
+  color:#000033;
+  font-weight:bold;
+  font-size:40px;
+  margin-top:0px;
+  margin-bottom:5px;
+  text-shadow:
+       1px 1px 0 #FFF,
+     -1px -1px 0 #FFF,  
+      1px -1px 0 #FFF,
+      -1px 1px 0 #FFF,
+       1px 1px 0 #FFF;
+}
+
+.posterOther h2 {
+  color: white;
+  //color: #ffb380;
+  font-weight:bold;
+  font-size:50px;
+  margin-top:70px;
+  margin-bottom:15px;
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}

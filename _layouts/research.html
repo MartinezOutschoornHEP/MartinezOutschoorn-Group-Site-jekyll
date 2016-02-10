@@ -1,0 +1,41 @@
+<html>
+  <head>
+
+  <!-- NOTIFICATION: Please don't edit these pages on the server! Your changes will be lost when the site is recompiled from source code by jekyll. Please contact Rachel Smith (resmith4@illinois.edu) for instructions. -->
+	
+	<!-- This site was built using Jekyll. -->
+	
+		<meta name="description" content="Martinez-Outschoorn Research Group Website" />
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="{{ site.baseurl }}/img/illinoisicon.ico">
+
+		<title>Martinez-Outschoorn Research Group</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet" type="text/css">
+		
+		<!-- Custom styles for this template -->
+		<link href="{{ site.baseurl }}/css/site.css" rel="stylesheet" type="text/css">
+		<link href="{{ site.baseurl }}/css/default.css" rel="stylesheet" type="text/css">
+
+		<!-- Load the Font Condensed Roboto from Google server -->
+		<link href='https://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+    
+  </head>
+<body>
+  {% include navbar.html %}
+  {% include posterResearch.html %}  
+  {{ content }}
+  
+  {% include footer.html %}
+
+  
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.js"></script>
+  </body>
+</html>

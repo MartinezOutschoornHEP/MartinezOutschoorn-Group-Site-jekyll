@@ -1,0 +1,9 @@
+#A list of announcements
+- title: New Website
+  date: February 6, 2016
+  details: Our new research website is up and running!
+  picture: none
+- title: USATLAS Workshop
+  date: June 23, 2015
+  details: We hosted the <a href="http://hep.physics.illinois.edu/hepg/ATLAS%20WKSHP/home.html"> USATLAS Workshop </a> at Siebel 1404.
+  picture: "../img/USATLAS_photo.jpg"

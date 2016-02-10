@@ -1,0 +1,20 @@
+﻿# List of pages to include in navbar. Links will appear in order from left to right.
+
+- name: "Home"
+  url: ""
+
+- name: "People"
+  url: "people/"
+ 
+- name: "Research"
+  url: "research/"
+  # child_links:
+  #   - header: "ATLAS"
+  #     name: "Ah"
+  #     divider: ""
+  #   - header: "Whatever"
+  #     name: "Bah"
+   
+- name: "Publications"
+  url: "publications/"
+  

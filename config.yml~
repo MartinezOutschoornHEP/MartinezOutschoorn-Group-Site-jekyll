@@ -1,0 +1,18 @@
+# Site settings
+
+name: "Martinez-Outschoorn Research Group"
+description: "Martinez-Outschoorn Research Group Site"
+
+url: "http://research.physics.illinois.edu/martinez"
+baseurl: "martinez/"
+
+
+# Build settings
+markdown: rdiscount
+permalink: pretty
+highlighter: null
+excerpt_separator: <!--more-->
+encoding: utf-8
+
+gems:
+  - jekyll-sitemap
