@@ -2,7 +2,7 @@
 
 Stored here is the source code for the [Martinez-Outschoorn HEP Group Site](http://research.physics.illinois.edu/martinez). The basic tool for compiling and testing is called [Jekyll](http://jekyllrb.com/), which is supported on all the platforms, Windows, Mac OS and linux.
 
-This guide was written by Goten Cao (and edited by Rachel Smith). If you need any help, feel free to contact Goten at ycao31@illinois.edu and Rachel at resmith4@illinois.edu. I got the idea of the site after successfully creating some Twiki pages and I found it useful to have a place to show our great group members and put what we have done and what we are doing. The design was from [Kwiat QI Group Page](http://research.physics.illinois.edu/QI/Photonics/) but I somewhat changed most of it and added new stuff. During the process of making the website, I received huge support and help from the maintainer of their site, Rebecca Holmes.
+This guide was written by Goten Cao (and edited by Rachel Smith). If you need any help, feel free to contact Goten at ycao31@illinois.edu or Rachel at resmith4@illinois.edu. I got the idea of the site after successfully creating some Twiki pages and I found it useful to have a place to show our great group members and put what we have done and what we are doing. The design was from [Kwiat QI Group Page](http://research.physics.illinois.edu/QI/Photonics/) but I somewhat changed most of it and added new stuff. During the process of making the website, I received huge support and help from the maintainer of their site, Rebecca Holmes.
 
 ## Table of Contents
 
@@ -14,8 +14,8 @@ This guide was written by Goten Cao (and edited by Rachel Smith). If you need an
 * [Make changes](#make-changes)
   * [Change your About Me paragraph and Publications](#change-your-about-me-paragraph-and-publications)
   * [Change your head shot or the photo in your own page](#change-your-head-shot-or-the-photo-in-your-own-page)
-  * [Add News](#add-news)
-  * [Add publications for Verena](#add-publications-for-Verena)
+  * [Add Announcements](#add-announcements)
+  * [Add publications and talks for Verena](#add-publications-and-talks-for-Verena)
 * [Test locally](#test-locally)
 * [Build and upload](#build-and-upload)
   * [Get access to the remote server](#get-access-to-the-remote-server)
@@ -53,7 +53,7 @@ You need Github and Jekyll to do the work.
 
 1. Get a GitHub account and contact one of the administrators of the organization (MartinezOutschoornHEP) to get added to the organization.
 
-2. Install and set up [GitHub Desktop](https://help.github.com/articles/set-up-git/).
+2. Install and set up [GitHub Desktop](https://help.github.com/articles/set-up-git/). You will use this to upload your changes to GitHub.
 
 3. From GitHub web page, find the repository MartinezOutschoorn-Group-Site-jekyll, and click "Clone in Desktop" on the bottom right and get the files on your local computer.
 
@@ -82,6 +82,12 @@ Jekyll is based on the programming language Ruby, which you must install in orde
     gem install rdiscount
     ```
 
+5. In order to build it may be necessary to perform this command:
+
+    ```
+    gem install jekyll site-mao
+    ```
+    
 ## Make changes
 
 Now that you have both the source code and Jekyll, you can start to make changes. This is the directory structure of the source code:
@@ -127,15 +133,15 @@ Go to `people/your_netid.html`. Make changes according to the format.
 
 ### Change your head shot or the photo in your own page
 
-Go to `group_member_photo`. `/headshot` is for the headshot in the people main page and `/full` is the one in your own page. Make sure that the photo you submit have the same width as height and please try to get the size of the photo to its minimum under the condition that it doesn't reduce the quality when viewed on the website.
+Go to `group_member_photo`. `/headshot` is for the headshot in the people main page and `/full` is the one in your own page. Make sure that the photo you submit IS SQUARE (i.e. has the same width and heighte.g. 500px X 500px) and please try to get the size of the photo to its minimum under the condition that it doesn't reduce the quality when viewed on the website.
 
 ### Add announcements
 
 Go to `_data/announcements.yml` and follow the format there.
 
-### Add publications for Verena
+### Add publications and talks for Verena
 
-Go to `publications` and change the stuff in index.html according to the format.
+Go to `_data/publications.yml` and change the stuff in index.html according to the format. Ditto for `_data/talks.yml`.
 
 ## Test locally
 
