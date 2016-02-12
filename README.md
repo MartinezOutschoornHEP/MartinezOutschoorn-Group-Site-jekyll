@@ -85,7 +85,7 @@ Jekyll is based on the programming language Ruby, which you must install in orde
 5. In order to build it may be necessary to perform this command:
 
     ```
-    gem install jekyll site-mao
+    gem install jekyll site-map
     ```
     
 ## Make changes
@@ -141,7 +141,7 @@ Go to `_data/announcements.yml` and follow the format there.
 
 ### Add publications and talks for Verena
 
-Go to `_data/publications.yml` and change the stuff in index.html according to the format. Ditto for `_data/talks.yml`.
+Go to `_data/publications.yml` and follow the format. Ditto for `_data/talks.yml`.
 
 ## Test locally
 
