@@ -165,18 +165,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ef9fae;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #3c292c;
-  }
-}
+
 
 /*CSS style for the newsbox*/
 .newsbox {
@@ -269,8 +258,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   color:#ff6600;
   font-weight:bold;
   font-size:60px;
-  margin-top:0px;
-  margin-bottom:15px;
+  //margin-top:0px;
+  margin-bottom:30px;
    text-shadow:
        1px 1px 0 #FFF,
      -1px -1px 0 #FFF,  
@@ -303,4 +292,29 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   margin-top:70px;
   margin-bottom:15px;
    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1000px) {
+  .navbar-default .navbar-brand {
+    font-size: 12px;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ef9fae;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #3c292c;
+  }
+  .posterOther {
+    min-height: 200px;
+    text-align: center;
+    background: no-repeat 50% 0;
+    background-attachment: fixed;
+  }
+  .posterOther h2 {
+  margin-top:50px;
+    }
 }

@@ -4,14 +4,12 @@ title: Talks
 ---
 <div class="talks">
 	<div class="wrapper">
-      <a Verena Martinez Outschoorn's talks </b></a><br><br>
-      <center><img src="../img/paragraph-separator-2.gif"
-	  width=5%></center><br>
-	  
+       <!--<h2><center><div style="color:#000033; font-weight:bold">Verena Martinez Outschoorn's Talks</div></center></h2>
+       <center><img src="../img/paragraph-separator-2.gif" width=10%></center>-->
       {% for talk in site.data.talks %}
-      <center><a href="{{ talk.url}}"><b>{{ talk.name }}</b></a> <br>
-      {{ talk.details }}</center><br>
-      <center><img src="../img/paragraph-separator-2.gif" width=5%></center><br>
+      <a href="{{ talk.url}}"><b>{{ talk.name }}</b></a> <br>
+         {{ talk.details }}<br><br>
+      
       {% endfor %}
       
    </div>

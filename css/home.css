@@ -3,9 +3,10 @@
   background-image:url('../img/homeBackground.jpg');
   background-size: 100%;
   background-repeat:repeat;
-  height:200px;
+  min-height:200px;
   background-attachment: fixed;
 }
+
 
 .poster .container {
   max-width:100%;
@@ -79,32 +80,50 @@
        1px 1px 0 #FFF;*/
 }
 
-#announcements {
+.announcements {
 width: 50%;
 float: left;
 }
-#announcements{overflow:auto;} 
+.announcements{overflow:auto;} 
 
-#aboutus {
+.aboutus {
 width: 50%;
 float: right;
 }
-#aboutus{overflow:auto;}
+.aboutus{overflow:auto;}
 
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .poster h1 {
     font-size:36px; /* Resize poster heading to fit on smaller screens */
   }
+
+  .poster h2 {
+    font-size:14px;
+    position: center;
+  }
   .poster p {
-    font-size:25px;
+    font-size:12px;
   }
   .poster .ui_icon {
     width:50px;
     height:auto;
   }
   .poster {
-    height:200px;
+    height: auto;
+    text-align: center;
+    background:url('../img/homeBackground.jpg') no-repeat 50% 0;
+    background-attachment: fixed;
+  }
+
+  .aboutus {
+  width: 100%;
+  float: none:
+  }
+
+  .announcements {
+  width: 100%;
+  float: none;
   }
 
 }
