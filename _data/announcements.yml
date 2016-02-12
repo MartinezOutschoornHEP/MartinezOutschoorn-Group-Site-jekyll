@@ -1,9 +1,9 @@
 #A list of announcements
-- title: New Website
-  date: February 6, 2016
-  details: Our new research website is up and running!
-  picture: none
 - title: USATLAS Workshop
   date: June 23, 2015
   details: We hosted the <a href="http://hep.physics.illinois.edu/hepg/ATLAS%20WKSHP/home.html"> USATLAS Workshop </a> at Siebel 1404.
   picture: "img/USATLAS_photo.jpg"
+- title: LHC Restart
+  date: April 2, 2015
+  details: The LHC is starting up again at 13 TeV. Read about it in <a href="http://www.bloomberg.com/news/articles/2015-04-02/after-higgs-boson-what-physicists-are-looking-for-now"> this article</a> we are featured in.
+  picture: none

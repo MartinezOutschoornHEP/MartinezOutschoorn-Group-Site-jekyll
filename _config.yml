@@ -1,7 +1,7 @@
 # Site settings
 
-name: "Martinez-Outschoorn Research Group"
-description: "Martinez-Outschoorn Research Group Site"
+name: "Martinez Outschoorn Research Group"
+description: "Martinez Outschoorn Research Group Site"
 
 url: "http://research.physics.illinois.edu/martinez"
 baseurl: "/martinez"

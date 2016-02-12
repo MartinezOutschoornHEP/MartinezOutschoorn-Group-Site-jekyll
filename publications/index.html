@@ -5,11 +5,9 @@ title: Publications
 <div class="publications">
 	<div class="wrapper">
       <a href="http://inspirehep.net/search?ln=en&ln=en&p=find+v+martinez+outschoorn"><b>Verena Martinez-Outschoorn's publications (inspire) </b></a><br><br>
-      <center><img src="../img/paragraph-separator-2.gif" width=5%></center>
       {% for publication in site.data.publications %}
       <a href="{{ publication.url}}"><b>{{ publication.name }}</b></a> <br>
-      {{ publication.details }}
-      <center><img src="../img/paragraph-separator-2.gif" width=5%></center>
+      {{ publication.details }}<br><br>
       {% endfor %}
       
    </div>

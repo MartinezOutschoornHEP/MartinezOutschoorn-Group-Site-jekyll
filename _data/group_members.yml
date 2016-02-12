@@ -2,7 +2,7 @@
 
 - name: "Group Leader"
   people:
-     - name: "Verena Martinez-Outschoorn"
+     - name: "Verena Martinez Outschoorn"
        image: "../group_member_photo/headshot/headshot_vimartin.jpg"
        netid: "vimartin"
        email: "vimartin@illinois.edu"
@@ -35,7 +35,7 @@
 - name: "Former Group Members" 
   people:
      - name: "Wooyoung Moon"
-       image: "../group_member_photo/headshot/headshot_none.jpg"
+       image: "../group_member_photo/headshot/headshot_moon.jpg"
        email: "wmoon2@illinois.edu"
      
 

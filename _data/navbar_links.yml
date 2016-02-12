@@ -17,4 +17,9 @@
    
 - name: "Publications"
   url: "publications/"
-  
+
+- name: "Talks"
+  url: "talks/"
+
+- name: "Past Projects"
+  url: "pastprojects/"
