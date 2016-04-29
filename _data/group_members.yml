@@ -16,11 +16,15 @@
 
 - name: "Graduate Students"
   people:
+    - name: "Huacheng Cai"
+      image: "../group_member_photo/headshot/headshot_hcai12.jpg"
+      netid: "hcai12"
+      email: "hcai12 AT illinois.edu"
     - name: "Mazin Khader"
       image: "../group_member_photo/headshot/headshot_khader2.jpg"
       netid: "khader2"
       email: "khader2 AT illinois.edu"
-      
+          
 - name: "Undergraduate Students"
   people:
     - name: "Alexander Dittmann"
