@@ -1,0 +1,97 @@
+---
+layout: outreach
+title: Outreach
+---
+<div class="outreach">
+	
+<div class="half">   
+<div class="wrapper">
+   <h2><center><div style="color:#000033; font-weight:bold">Particle Physics for Grade School Students</div></center></h2>
+   <center>
+      <img src="../img/paragraph-separator-2.gif" width=10%></center>
+   We are developing a physics education presentation targeted towards middle and high school aged students. The goal is to give these students a basic understanding of how high energy physics research happens, along with a sense of appreciation for the sheer magnitude of the technology involved and what it has helped us discover.<br><br>
+
+   Our presentation consists of three parts. The first is a short lecture in which we introduce the standard model and the idea of a fundamental particle. Once these ideas are developed, we talk about the LHC, ATLAS, and how it all works together to help us learn more about the world we live in.<br><br>
+
+   After the lecture, we connect to the control room of the ATLAS experiment for a virtual tour. This tour is guided by a real scientist at CERN, who shows us around the control room and explains what all the people who work there do.<br><br>
+
+The last portion of the presentation is a hands on particle scattering activity inspired by Rutherford's famous gold foil experiment. The students are given marbles and a box with a shape hidden in it. By bouncing the marbles off of the sides of the unknown shape and measuring the angle between the inward and outward path, the students try to figure out what shape they have been given.
+   <br><br>
+</div>
+</div>
+
+<div class = "half">
+<div class="wrapper">
+   <center>
+       <!-- Start cssSlider.com -->
+	<div class='csslider1 autoplay '>
+		<input name="cs_anchor1" id='cs_slide1_0' type="radio" class='cs_anchor slide' >
+		<input name="cs_anchor1" id='cs_slide1_1' type="radio" class='cs_anchor slide' >
+		<input name="cs_anchor1" id='cs_slide1_2' type="radio" class='cs_anchor slide' >
+		<input name="cs_anchor1" id='cs_play1' type="radio" class='cs_anchor' checked>
+		<input name="cs_anchor1" id='cs_pause1' type="radio" class='cs_anchor' >
+		<ul>
+			<div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
+				<img src="../img/outreach1/IMG_3287.jpeg" style="width: 100%;">
+			</div>
+			<li class='num0 img'>
+				<img src='../img/outreach1/IMG_3287.jpeg'  />
+			</li>
+			<li class='num1 img'>
+            <img src='../img/outreach1/IMG_3290.jpeg' /> 
+			</li>
+			<li class='num2 img'>
+	         <img src='../img/outreach1/IMG_3272.jpeg'/>
+			</li>
+		
+		</ul>
+		
+		
+		<div class='cs_arrowprev'>
+			<label class='num0' for='cs_slide1_0'></label>
+			<label class='num1' for='cs_slide1_1'></label>
+			<label class='num2' for='cs_slide1_2'></label>
+		</div>
+		<div class='cs_arrownext'>
+			<label class='num0' for='cs_slide1_0'></label>
+			<label class='num1' for='cs_slide1_1'></label>
+			<label class='num2' for='cs_slide1_2'></label>
+		</div>
+		
+		<div class='cs_bullets'>
+			<label class='num0' for='cs_slide1_0'>
+				<span class='cs_point'></span>
+			</label>
+			<label class='num1' for='cs_slide1_1'>
+				<span class='cs_point'></span>
+			</label>
+			<label class='num2' for='cs_slide1_2'>
+				<span class='cs_point'></span>
+			</label>
+		</div>
+		</div>
+<!-- End cssSlider.com -->
+<br><br>
+      </center>
+</div>
+</div>
+
+<div class="wrapper">
+   <h2><center><div style="color:#000033; font-weight:bold">Past Presentations</div></center></h2>
+   <center>
+      <img src="../img/paragraph-separator-2.gif" width=10%></center>
+
+   <center>
+   {% for outreach in site.data.outreach %}
+   <b>{{outreach.name}}</b><br>
+   <a href="{{ outreach.url}}"><b>Photos</b></a> <a href="{{ outreach.slides }}"><b>Slides</b></a><br>
+      {{ outreach.details }}<br><br>
+      {% endfor %}
+   </center>
+  
+</div>
+
+
+
+
+</div>

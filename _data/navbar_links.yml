@@ -23,3 +23,6 @@
 
 - name: "Past Projects"
   url: "pastprojects/"
+
+- name: "Outreach"
+  url: "outreach/"

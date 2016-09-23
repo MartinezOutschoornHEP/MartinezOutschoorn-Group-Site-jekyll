@@ -1,0 +1,11 @@
+---
+layout: blank
+title: cms_index
+---
+<center>
+{% for image in site.static_files %}
+    {% if image.path contains 'img/outreach1' %}
+    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" /><br><br>
+    {% endif %}
+{% endfor %}
+<center>

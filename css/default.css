@@ -1,12 +1,12 @@
 .half {
-width: 50%;
+width: 49.8%;
 display: inline-block;
 vertical-align:top;
 }
 .half{overflow:auto;} 
 
 .third {
-width: 33%;
+width: 33.1%;
 display: inline-block;
 vertical-align:top;
 }
@@ -15,8 +15,7 @@ vertical-align:top;
 @media (max-width: 1000px) {
    .half{
       width: 100%;
-      display: none;
-      vertical-align: none;
+
    }
    .third{
       width: 100%;
