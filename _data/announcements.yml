@@ -1,4 +1,16 @@
 #A list of announcements
+- title: The LHC at Saturday Physics for Everyone
+  date: September 10, 2016
+  details: Stay tuned for a very special tour of the Large Hadron Collider (LHC) experiments on December 3rd, 2016. See details at <a href="http://physics.illinois.edu/outreach/saturdayphysics/"> the Saturday Physics for Everyone website </a>.
+  picture: "img/SPE2016Martinez-Outschoorn.png"
+- title: IAmA Particle Physicist
+  date: August 4, 2016
+  details: At the ICHEP conference we have a Reddit AMA to answer questions about the search for new particles! Checkout the <a https://www.reddit.com/r/IAmA/comments/4w550t/were_physicists_searching_for_new_particles_and/"> Reddit page </a>.
+  picture: "img/IAmAPicture.jpg"
+- title: New Exotic Higgs Result
+  date: June 27, 2016
+  details: We have performed the first ever search for a higgs boson decaying to four b-quarks, check out the <a href="https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/HIGG-2016-01/"> analysis website </a>!.
+  picture: none
 - title: USATLAS Workshop
   date: June 23, 2015
   details: We hosted the <a href="http://hep.physics.illinois.edu/hepg/ATLAS%20WKSHP/home.html"> USATLAS Workshop </a> at Siebel 1404.

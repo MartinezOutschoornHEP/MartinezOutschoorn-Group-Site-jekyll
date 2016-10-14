@@ -1,11 +1,15 @@
 #A list of selected publications
+- name: Search for the Higgs boson produced in association with a W boson and decaying to four b-quarks via two spin-zero particles in pp collisions at 13 TeV with the ATLAS detector
+  url: https://arxiv.org/abs/1606.08391
+  details: accepted by Eur. Phys. J. C (2016)
+
 - name: Search for top-squark pairs decaying into Higgs or Z bosons in pp collisions at 8 TeV
   url: http://arxiv.org/abs/1405.3886
   details: CMS Collaboration, Phys. Lett. B736 (2014) 371, arXiv:1405.3886
 
 - name: Search for top-squark pair production in the single-lepton final state in pp collisions at 8 TeV
   url: http://arxiv.org/abs/1308.1586
-  details: CMS Collaboration, Eur. Phys. J. 12 C73 (2013) 2677, arXiv:1308.1586
+  details: CMS Collaboration, Eur. Phys. J. C73 12 (2013) 2677, arXiv:1308.1586
 
 - name: Measurement of the inclusive W and Z/gamma cross sections in the electron and muon decay channels in pp collisions at 7 TeV with the ATLAS detector
   url: http://arxiv.org/abs/1109.5141
