@@ -1,7 +1,12 @@
 #A list of selected publications
+
+- name: Handbook of LHC Higgs Cross Sections Deciphering the Nature of the Higgs Sector
+  url: https://arxiv.org/abs/1610.07922 
+  details: LHC Higgs Cross Section Working Group, arXiv:1610.07922 
+
 - name: Search for the Higgs boson produced in association with a W boson and decaying to four b-quarks via two spin-zero particles in pp collisions at 13 TeV with the ATLAS detector
   url: https://arxiv.org/abs/1606.08391
-  details: accepted by Eur. Phys. J. C (2016)
+  details: ATLAS Collaboration, Eur. Phys. J. C 76 (2016) 605, arXiv:1606.08391
 
 - name: Search for top-squark pairs decaying into Higgs or Z bosons in pp collisions at 8 TeV
   url: http://arxiv.org/abs/1405.3886
