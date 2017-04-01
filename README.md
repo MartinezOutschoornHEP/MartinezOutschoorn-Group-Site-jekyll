@@ -85,7 +85,7 @@ Jekyll is based on the programming language Ruby, which you must install in orde
 5. In order to build it may be necessary to perform this command:
 
     ```
-    gem install jekyll site-map
+    gem install jekyll-sitemap
     ```
     
 ## Make changes
