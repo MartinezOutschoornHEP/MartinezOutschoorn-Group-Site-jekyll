@@ -14,6 +14,13 @@
       netid: "rogerCaminalArmadans"
       email: "caminal AT illinois.edu"
 
+- name: "Engineers"
+  people:
+    - name: "Thiago Costa de Paiva"
+      image: "../group_member_photo/headshot/headshot_tpaiva.png"
+      netid: "tcpaiva"
+      email: "tcpaiva AT illinois.edu"
+
 - name: "Graduate Students"
   people:
     - name: "Huacheng Cai"
