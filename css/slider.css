@@ -621,11 +621,11 @@
 	
 }
 .csslider1 > .cs_arrowprev:hover > label {
-	background-color: #ffb380;
+	background-color: #d82743;
 	width: 70px;
 }
 .csslider1 > .cs_arrownext:hover > label {
-	background-color: #ffb380;
+	background-color: #d82743;
 	width: 70px;
 }.csslider1 > .cs_bullets {
 	bottom: 5px;
@@ -642,7 +642,7 @@
 }
 
 .csslider1 > .cs_bullets > label > .cs_thumb {
-	border: 3px solid #ffb380;
+	border: 3px solid #d82743;
 	margin-top: -11px;
 	-webkit-transition: opacity 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), -webkit-transform 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), visibility 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	-moz-transition: opacity 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), -moz-transform 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), visibility 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
@@ -674,7 +674,7 @@
 	border-left: 7px solid transparent;
 	border-right: 7px solid transparent;
 	
-	border-top: 7px solid #ffb380;
+	border-top: 7px solid #d82743;
 }
 .csslider1 > .cs_bullets > label:hover > .cs_thumb {
 	visibility: visible;
@@ -701,7 +701,7 @@
 }
 
 .csslider1 > .cs_bullets > label.num0 {
-	background-color: #ffb380;
+	background-color: #d82743;
 }
 .csslider1 > .slide:checked ~ .cs_bullets > label {
 	/* Fallback for web browsers that doesn't support RGBa */
@@ -712,32 +712,32 @@
 .csslider1 > #cs_slide1_0:checked ~ .cs_bullets > label.num0,
 .csslider1 > #cs_slide1_1:checked ~ .cs_bullets > label.num1,
 .csslider1 > #cs_slide1_2:checked ~ .cs_bullets > label.num2 {
-	background-color: #ffb380;
+	background-color: #d82743;
 }
 
 .csslider1 > .cs_bullets > label:hover {
-	background-color: #ffb380;
+	background-color: #d82743;
 }
 
 /* calculate autoplay */
 @-webkit-keyframes bullet {
-	0%, 33.32333333333334%	{ background-color: #ffb380; }
+	0%, 33.32333333333334%	{ background-color: #d82743; }
 	33.333333333333336%, 100% { background: #000; background-color: rgba(0,0,0,0.6); }
 }
 @-moz-keyframes bullet {
-	0%, 33.32333333333334%	{ background-color: #ffb380; }
+	0%, 33.32333333333334%	{ background-color: #d82743; }
 	33.333333333333336%, 100% { background: #000; background-color: rgba(0,0,0,0.6); }
 }
 @-ms-keyframes bullet {
-	0%, 33.32333333333334%	{ background-color: #ffb380; }
+	0%, 33.32333333333334%	{ background-color: #d82743; }
 	33.333333333333336%, 100% { background: #000; background-color: rgba(0,0,0,0.6); }
 }
 @-o-keyframes bullet {
-	0%, 33.32333333333334%	{ background-color: #ffb380; }
+	0%, 33.32333333333334%	{ background-color: #d82743; }
 	33.333333333333336%, 100% { background: #000; background-color: rgba(0,0,0,0.6); }
 }
 @keyframes bullet {
-	0%, 33.32333333333334%	{ background-color: #ffb380; }
+	0%, 33.32333333333334%	{ background-color: #d82743; }
 	33.333333333333336%, 100% { background: #000; background-color: rgba(0,0,0,0.6); }
 }
 
@@ -929,7 +929,7 @@
 	visibility: hidden;
 	z-index: 1;
 
-	background-color: #ffb380;
+	background-color: #d82743;
 
 	-webkit-transform: rotateX(-90deg);
 	-moz-transform: rotateX(-90deg);

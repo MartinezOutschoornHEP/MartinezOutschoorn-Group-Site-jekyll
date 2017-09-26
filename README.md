@@ -1,6 +1,6 @@
 # How to maintain Martinez-Outschoorn HEP Group site
 
-Stored here is the source code for the [Martinez-Outschoorn HEP Group Site](http://research.physics.illinois.edu/martinez). The basic tool for compiling and testing is called [Jekyll](http://jekyllrb.com/), which is supported on all the platforms, Windows, Mac OS and linux.
+Stored here is the source code for the [Martinez-Outschoorn HEP Group Site](https://people.umass.edu/vimartin). The basic tool for compiling and testing is called [Jekyll](http://jekyllrb.com/), which is supported on all the platforms, Windows, Mac OS and linux.
 
 This guide was written by Goten Cao (and edited by Rachel Smith). If you need any help, feel free to contact Goten at ycao31@illinois.edu or Rachel at resmith4@illinois.edu. I got the idea of the site after successfully creating some Twiki pages and I found it useful to have a place to show our great group members and put what we have done and what we are doing. The design was from [Kwiat QI Group Page](http://research.physics.illinois.edu/QI/Photonics/) but I somewhat changed most of it and added new stuff. During the process of making the website, I received huge support and help from the maintainer of their site, Rebecca Holmes.
 
@@ -160,6 +160,14 @@ jekyll build
 After this, the generated site will be stored in the folder `_site`
 
 ### Get access to the remote server
+
+The website is available at on the server `webadmin.oit.umass.edu` and
+you can scp directly to the public_html directory
+```
+scp -r _site/* webadmin.oit.umass.edu:/home/vimartin/public_html/
+```
+
+(Old instructions for Illinois below)
 
 I've asked the webmaster to grant all of our members the access to the server. But if there are new comers, please email engrit-help@illinois.edu to get added.
 

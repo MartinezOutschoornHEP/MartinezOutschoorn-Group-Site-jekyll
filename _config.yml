@@ -3,8 +3,8 @@
 name: "Martinez Outschoorn Research Group"
 description: "Martinez Outschoorn Research Group Site"
 
-url: "http://research.physics.illinois.edu/martinez"
-baseurl: "/martinez"
+url: "http://people.umass.edu/vimartin"
+baseurl: "/vimartin"
 
 
 # Build settings
