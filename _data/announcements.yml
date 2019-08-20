@@ -1,4 +1,12 @@
 #A list of announcements
+- title: USATLAS Workshop
+  date: August 9, 2019
+  details: We hosted the <a href="https://indico.cern.ch/event/813845/"> USATLAS Workshop </a> at UMass Amherst.
+  picture: "img/USATLAS_UMass.jpg"
+- title: USLUA, Fermilab and Johns Hopkins University at the US Science and Engineering Festival 
+  date: April 8, 2018
+  details: We setup a booth for the US LHC Users Organization at the <a href="https://usasciencefestival.org/"> US Science and Engineering Festival </a> in Washington DC.
+  picture: "img/DCScience.jpg"
 - title: Annual US high-energy physics visit to members of Congress
   date: March 26, 2017
   details: Martinez Outschoorn and Khader go to Washignton, DC on the annual <a href="http://www.uslua.org/">USLUA</a> visit to members of the Congress and to the Department of Energy. Each spring, a delegation of physicists representing High Energy Physics travels to Washington, DC to speak with Congressional members about the research being carried out in our field, thanking them for their past support, and asking for their support in the future. <a href="https://twitter.com/hashtag/heptakesthehill">#HEPtakesthehill</a>
@@ -7,14 +15,14 @@
   date: March 18, 2017
   details: Martinez Outschoorn presents the latest searches for new physics associated to the Higgs boson at the most prestigious conference in particle physics of the year.
   picture: "img/moriond2017.jpg"
-- title: NSF CAREER Award
-  date: March 1, 2017
-  details: Martinez Outschoorn has been selected for an NSF CAREER Award. See details in <a href="http://physics.illinois.edu/news/article/21346"> this article </a>.
-  picture: "img/nsflogo.png"
 - title: The LHC at Saturday Physics for Everyone
   date: September 10, 2016
   details: Stay tuned for a very special tour of the Large Hadron Collider (LHC) experiments on December 3rd, 2016. See details at <a href="http://physics.illinois.edu/outreach/saturdayphysics/"> the Saturday Physics for Everyone website </a>.
   picture: "img/SPE2016Martinez-Outschoorn.png"
+- title: NSF CAREER Award
+  date: March 1, 2017
+  details: Martinez Outschoorn has been selected for an NSF CAREER Award. See details in <a href="http://physics.illinois.edu/news/article/21346"> this article </a>.
+  picture: "img/nsflogo.png"
 - title: IAmA Particle Physicist
   date: August 4, 2016
   details: At the ICHEP conference we have a Reddit AMA to answer questions about the search for new particles! Checkout the <a href="https://www.reddit.com/r/IAmA/comments/4w550t/were_physicists_searching_for_new_particles_and/"> Reddit page </a>.

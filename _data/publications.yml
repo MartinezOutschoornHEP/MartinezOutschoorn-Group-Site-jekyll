@@ -1,5 +1,13 @@
 #A list of selected publications
 
+- name: Search for the Higgs boson produced in association with a vector boson and decaying into two spin-zero particles in the H → aa → 4b channel in pp collisions at 13 TeV with the ATLAS detector
+  url: https://arxiv.org/abs/1806.07355
+  details: ATLAS Collaboration, JHEP 10 (2018) 031, arXiv:1806.07355
+
+- name: Search for Higgs boson decays to beyond-the-Standard-Model light bosons in four-lepton events with the ATLAS detector at 13 TeV
+  url: https://arxiv.org/abs/1802.03388
+  details: ATLAS Collaboration, JHEP 06 (2018) 166, arXiv:1802.03388
+
 - name: Handbook of LHC Higgs Cross Sections Deciphering the Nature of the Higgs Sector
   url: https://arxiv.org/abs/1610.07922 
   details: LHC Higgs Cross Section Working Group, arXiv:1610.07922 
